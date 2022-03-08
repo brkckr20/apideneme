@@ -8,6 +8,10 @@ const list = [
     {
         id: 1,
         name: "burak"
+    },
+    {
+        id:2,
+        name: "çakır"
     }
 ]
 
