@@ -11,7 +11,7 @@ const list = [
     }
 ]
 
-app.get("/",(req,res)=>{
+app.get("/api",(req,res)=>{
     res.status(200).send(list)
     console.log(list)
 })
