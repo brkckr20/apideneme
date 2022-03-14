@@ -15,12 +15,18 @@ const list = [
     }
 ]
 
+app.get("/",(req,res)=>{
+    res.send("Anasayfa")
+})
+
 app.get("/api",(req,res)=>{
     res.status(200).send(list)
     console.log(list)
 })
 
+
 console.log(list);
 app.listen(PORT,() => {
     console.log(`server ${PORT} nolu porttan hizmette`)
 })
+
